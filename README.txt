@@ -1,6 +1,5 @@
 ═══════════════════════════════════════════════════════════════════════════════
   Reinforcement Learning with Transformers for the Traveling Salesman Problem
-  COSC6354 — Spring 2026
 ═══════════════════════════════════════════════════════════════════════════════
 
 REQUIREMENTS
@@ -19,9 +18,6 @@ To run the full pipeline (train all models + evaluate + generate plots):
 
   chmod +x run_all.sh
   ./run_all.sh
-
-This takes ~4-5 hours (mostly OR-Tools evaluation).
-Requires a GPU with >= 8GB VRAM for training.
 
 PROJECT STRUCTURE
 ─────────────────
