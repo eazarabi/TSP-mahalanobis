@@ -1,0 +1,13 @@
+{
+  "or_tools_ref": 5.544788837432861,
+  "results": {
+    "4": {
+      "greedy_mean": 5.6210856437683105,
+      "pomo_mean": 5.562707901000977,
+      "pomo_2opt_mean": 5.557282447814941,
+      "bestof128_mean": 5.578998565673828,
+      "total_time": 17.561352491378784
+    }
+  },
+  "metric": "weighted_euclidean"
+}

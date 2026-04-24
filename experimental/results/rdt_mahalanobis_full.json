@@ -1,0 +1,13 @@
+{
+  "or_tools_ref": 15.004705429077148,
+  "results": {
+    "4": {
+      "greedy_mean": 15.392509460449219,
+      "pomo_mean": 15.071651458740234,
+      "pomo_2opt_mean": 15.051187515258789,
+      "bestof128_mean": 15.165705680847168,
+      "total_time": 17.353437662124634
+    }
+  },
+  "metric": "mahalanobis"
+}

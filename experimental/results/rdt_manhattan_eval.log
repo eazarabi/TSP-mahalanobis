@@ -1,0 +1,21 @@
+Loaded validation set from data/tsp20_val_seed4321.pt
+Loaded test set from data/tsp20_test_seed1234.pt
+
+==========================================================================================
+RDT EVALUATION: MANHATTAN TSP-20
+OR-Tools reference: 4.7494
+==========================================================================================
+  T    Greedy   Gap%   POMO-20   Gap%   POMO+2opt   Gap%   Best-128   Gap%    Time
+------------------------------------------------------------------------------------------
+  4    4.9130  3.45%    4.7921  0.90%      4.7762  0.57%     4.8239  1.57%   17.0s
+
+Saved: /home/elnur/Desktop/Coding/TSP/experimental/results/rdt_manhattan_full.json
+
+======================================================================
+COMPARISON: RDT vs. Main Paper (glimpse decoder, manhattan)
+======================================================================
+Strategy            Main Paper       Best RDT        Δ
+-------------------------------------------------------
+Greedy                  4.9127         4.9130  +0.0003
+POMO-20                 4.7940         4.7921  -0.0018
+POMO+2opt               4.7770         4.7762  -0.0008

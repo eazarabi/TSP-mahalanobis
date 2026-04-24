@@ -1,0 +1,13 @@
+{
+  "or_tools_ref": 4.7493510246276855,
+  "results": {
+    "4": {
+      "greedy_mean": 4.91304349899292,
+      "pomo_mean": 4.792110919952393,
+      "pomo_2opt_mean": 4.7762131690979,
+      "bestof128_mean": 4.823884010314941,
+      "total_time": 17.00136709213257
+    }
+  },
+  "metric": "manhattan"
+}

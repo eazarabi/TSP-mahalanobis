@@ -1,0 +1,21 @@
+Loaded validation set from data/tsp20_val_seed4321.pt
+Loaded test set from data/tsp20_test_seed1234.pt
+
+==========================================================================================
+RDT EVALUATION: WEIGHTED_EUCLIDEAN TSP-20
+OR-Tools reference: 5.5448
+==========================================================================================
+  T    Greedy   Gap%   POMO-20   Gap%   POMO+2opt   Gap%   Best-128   Gap%    Time
+------------------------------------------------------------------------------------------
+  4    5.6211  1.38%    5.5627  0.32%      5.5573  0.23%     5.5790  0.62%   17.6s
+
+Saved: /home/elnur/Desktop/Coding/TSP/experimental/results/rdt_weighted_euclidean_full.json
+
+======================================================================
+COMPARISON: RDT vs. Main Paper (glimpse decoder, weighted_euclidean)
+======================================================================
+Strategy            Main Paper       Best RDT        Δ
+-------------------------------------------------------
+Greedy                  5.6233         5.6211  -0.0022
+POMO-20                 5.5646         5.5627  -0.0019
+POMO+2opt               5.5589         5.5573  -0.0016

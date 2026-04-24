@@ -1,0 +1,21 @@
+Loaded validation set from data/tsp20_val_seed4321_gaussian.pt
+Loaded test set from data/tsp20_test_seed1234_gaussian.pt
+
+==========================================================================================
+RDT EVALUATION: MAHALANOBIS TSP-20
+OR-Tools reference: 15.0047
+==========================================================================================
+  T    Greedy   Gap%   POMO-20   Gap%   POMO+2opt   Gap%   Best-128   Gap%    Time
+------------------------------------------------------------------------------------------
+  4   15.3925  2.58%   15.0717  0.45%     15.0512  0.31%    15.1657  1.07%   17.4s
+
+Saved: /home/elnur/Desktop/Coding/TSP/experimental/results/rdt_mahalanobis_full.json
+
+======================================================================
+COMPARISON: RDT vs. Main Paper (glimpse decoder, mahalanobis)
+======================================================================
+Strategy            Main Paper       Best RDT        Δ
+-------------------------------------------------------
+Greedy                 15.4368        15.3925  -0.0443
+POMO-20                15.0927        15.0717  -0.0210
+POMO+2opt              15.0613        15.0512  -0.0101

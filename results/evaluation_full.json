@@ -1,0 +1,452 @@
+{
+  "euclidean": {
+    "summary": {
+      "RL simple_rollout_euclidean (greedy)": {
+        "mean_length": 4.006814002990723,
+        "gap_percent": 4.648796558380127,
+        "approx_ratio": 1.0464879274368286,
+        "improvement_over_nn_percent": 72.05264359536568,
+        "time_sec": 0.1933448314666748
+      },
+      "RL simple_critic_euclidean (greedy)": {
+        "mean_length": 3.987973213195801,
+        "gap_percent": 4.161679267883301,
+        "approx_ratio": 1.0416167974472046,
+        "improvement_over_nn_percent": 74.99589373698984,
+        "time_sec": 0.023746252059936523
+      },
+      "RL glimpse_rollout_euclidean (greedy)": {
+        "mean_length": 3.912916898727417,
+        "gap_percent": 2.2109179496765137,
+        "approx_ratio": 1.0221091508865356,
+        "improvement_over_nn_percent": 86.72095996793949,
+        "time_sec": 0.03641223907470703
+      },
+      "RL glimpse_rollout_euclidean (best-of-128)": {
+        "mean_length": 3.8588991165161133,
+        "gap_percent": 0.8001591563224792,
+        "approx_ratio": 1.0080015659332275,
+        "improvement_over_nn_percent": 95.1594515000989,
+        "time_sec": 4.900912523269653
+      },
+      "RL glimpse_rollout_euclidean (beam-10)": {
+        "mean_length": 3.912916898727417,
+        "gap_percent": 2.2109179496765137,
+        "approx_ratio": 1.0221091508865356,
+        "improvement_over_nn_percent": 86.72095996793949,
+        "time_sec": 0.18365073204040527
+      },
+      "RL glimpse_rollout_euclidean (beam-25)": {
+        "mean_length": 3.912916898727417,
+        "gap_percent": 2.2109179496765137,
+        "approx_ratio": 1.0221091508865356,
+        "improvement_over_nn_percent": 86.72095996793949,
+        "time_sec": 0.36391234397888184
+      },
+      "RL glimpse_rollout_euclidean (8x aug)": {
+        "mean_length": 3.849496603012085,
+        "gap_percent": 0.5554487705230713,
+        "approx_ratio": 1.0055545568466187,
+        "improvement_over_nn_percent": 96.62828319471359,
+        "time_sec": 0.2261793613433838
+      },
+      "RL glimpse_rollout_euclidean (POMO-20)": {
+        "mean_length": 3.846344470977783,
+        "gap_percent": 0.4729400873184204,
+        "approx_ratio": 1.0047293901443481,
+        "improvement_over_nn_percent": 97.12069955078786,
+        "time_sec": 0.708341121673584
+      },
+      "RL glimpse_rollout_euclidean (POMO+2opt)": {
+        "mean_length": 3.840156316757202,
+        "gap_percent": 0.3139881491661072,
+        "approx_ratio": 1.003139853477478,
+        "improvement_over_nn_percent": 98.08739394016142,
+        "time_sec": 1.98832106590271
+      },
+      "RL glimpse_critic_euclidean (greedy)": {
+        "mean_length": 3.9115395545959473,
+        "gap_percent": 2.1709208488464355,
+        "approx_ratio": 1.0217092037200928,
+        "improvement_over_nn_percent": 86.93612442516974,
+        "time_sec": 0.03396773338317871
+      },
+      "RL glimpse_rollout_euclidean_ent (greedy)": {
+        "mean_length": 3.9099459648132324,
+        "gap_percent": 2.1256489753723145,
+        "approx_ratio": 1.021256446838379,
+        "improvement_over_nn_percent": 87.18507011188031,
+        "time_sec": 0.03300833702087402
+      },
+      "RL glimpse_rollout_euclidean_ent (best-of-128)": {
+        "mean_length": 3.852489948272705,
+        "gap_percent": 0.6320687532424927,
+        "approx_ratio": 1.0063207149505615,
+        "improvement_over_nn_percent": 96.16067201927207,
+        "time_sec": 4.84778904914856
+      },
+      "RL glimpse_rollout_euclidean_ent (beam-10)": {
+        "mean_length": 3.9099459648132324,
+        "gap_percent": 2.1256489753723145,
+        "approx_ratio": 1.021256446838379,
+        "improvement_over_nn_percent": 87.18507011188031,
+        "time_sec": 0.1597435474395752
+      },
+      "RL glimpse_rollout_euclidean_ent (beam-25)": {
+        "mean_length": 3.9099459648132324,
+        "gap_percent": 2.1256489753723145,
+        "approx_ratio": 1.021256446838379,
+        "improvement_over_nn_percent": 87.18507011188031,
+        "time_sec": 0.36824917793273926
+      },
+      "RL glimpse_rollout_euclidean_ent (8x aug)": {
+        "mean_length": 3.8465917110443115,
+        "gap_percent": 0.48126140236854553,
+        "approx_ratio": 1.0048125982284546,
+        "improvement_over_nn_percent": 97.08207646923208,
+        "time_sec": 0.22510099411010742
+      },
+      "RL glimpse_rollout_euclidean_ent (POMO-20)": {
+        "mean_length": 3.842559814453125,
+        "gap_percent": 0.3772328495979309,
+        "approx_ratio": 1.0037723779678345,
+        "improvement_over_nn_percent": 97.71192693421749,
+        "time_sec": 0.7076573371887207
+      },
+      "RL glimpse_rollout_euclidean_ent (POMO+2opt)": {
+        "mean_length": 3.8380014896392822,
+        "gap_percent": 0.25939226150512695,
+        "approx_ratio": 1.0025938749313354,
+        "improvement_over_nn_percent": 98.42401439445378,
+        "time_sec": 1.952045202255249
+      },
+      "NN": {
+        "mean_length": 4.468048572540283,
+        "gap_percent": 16.647212982177734,
+        "approx_ratio": 1.16647207736969,
+        "improvement_over_nn_percent": 0.0,
+        "time_sec": 0.09569907188415527
+      },
+      "2-opt": {
+        "mean_length": 3.930737257003784,
+        "gap_percent": 2.644193410873413,
+        "approx_ratio": 1.0264419317245483,
+        "improvement_over_nn_percent": 83.93711849464584,
+        "time_sec": 2.904691696166992
+      },
+      "OR-Tools": {
+        "mean_length": 3.8279130458831787,
+        "gap_percent": 0.0,
+        "approx_ratio": 1.0,
+        "improvement_over_nn_percent": 100.0,
+        "time_sec": 2000.9573771953583
+      }
+    }
+  },
+  "manhattan": {
+    "summary": {
+      "RL glimpse_rollout_manhattan (greedy)": {
+        "mean_length": 4.912740230560303,
+        "gap_percent": 3.4250686168670654,
+        "approx_ratio": 1.0342506170272827,
+        "improvement_over_nn_percent": 79.2971650604164,
+        "time_sec": 0.0425715446472168
+      },
+      "RL glimpse_rollout_manhattan (best-of-128)": {
+        "mean_length": 4.814576625823975,
+        "gap_percent": 1.3592678308486938,
+        "approx_ratio": 1.0135926008224487,
+        "improvement_over_nn_percent": 91.73534844181339,
+        "time_sec": 4.52254843711853
+      },
+      "RL glimpse_rollout_manhattan (beam-10)": {
+        "mean_length": 4.912740230560303,
+        "gap_percent": 3.4250686168670654,
+        "approx_ratio": 1.0342506170272827,
+        "improvement_over_nn_percent": 79.2971650604164,
+        "time_sec": 0.14746379852294922
+      },
+      "RL glimpse_rollout_manhattan (beam-25)": {
+        "mean_length": 4.912740230560303,
+        "gap_percent": 3.4250686168670654,
+        "approx_ratio": 1.0342506170272827,
+        "improvement_over_nn_percent": 79.2971650604164,
+        "time_sec": 0.33494043350219727
+      },
+      "RL glimpse_rollout_manhattan (POMO-20)": {
+        "mean_length": 4.793954849243164,
+        "gap_percent": 0.9281555414199829,
+        "approx_ratio": 1.0092815160751343,
+        "improvement_over_nn_percent": 94.34830707807458,
+        "time_sec": 0.664161205291748
+      },
+      "RL glimpse_rollout_manhattan (POMO+2opt)": {
+        "mean_length": 4.776975154876709,
+        "gap_percent": 0.5728422999382019,
+        "approx_ratio": 1.0057283639907837,
+        "improvement_over_nn_percent": 96.49978218799261,
+        "time_sec": 1.9411969184875488
+      },
+      "NN": {
+        "mean_length": 5.538562774658203,
+        "gap_percent": 16.582021713256836,
+        "approx_ratio": 1.1658202409744263,
+        "improvement_over_nn_percent": 0.0,
+        "time_sec": 0.06247758865356445
+      },
+      "2-opt": {
+        "mean_length": 4.907486438751221,
+        "gap_percent": 3.2904627323150635,
+        "approx_ratio": 1.0329046249389648,
+        "improvement_over_nn_percent": 79.96286622475904,
+        "time_sec": 2.4276912212371826
+      },
+      "OR-Tools": {
+        "mean_length": 4.7493510246276855,
+        "gap_percent": 0.0,
+        "approx_ratio": 1.0,
+        "improvement_over_nn_percent": 100.0,
+        "time_sec": 2000.9056813716888
+      }
+    }
+  },
+  "mahalanobis": {
+    "summary": {
+      "RL glimpse_rollout_mahalanobis (greedy)": {
+        "mean_length": 15.436788558959961,
+        "gap_percent": 2.869079113006592,
+        "approx_ratio": 1.0286908149719238,
+        "improvement_over_nn_percent": 85.11403205001416,
+        "time_sec": 0.04522562026977539
+      },
+      "RL glimpse_rollout_mahalanobis (best-of-128)": {
+        "mean_length": 15.17457103729248,
+        "gap_percent": 1.1195024251937866,
+        "approx_ratio": 1.0111950635910034,
+        "improvement_over_nn_percent": 94.14785298286448,
+        "time_sec": 4.508809328079224
+      },
+      "RL glimpse_rollout_mahalanobis (beam-10)": {
+        "mean_length": 15.436788558959961,
+        "gap_percent": 2.869079113006592,
+        "approx_ratio": 1.0286908149719238,
+        "improvement_over_nn_percent": 85.11403205001416,
+        "time_sec": 0.1452338695526123
+      },
+      "RL glimpse_rollout_mahalanobis (beam-25)": {
+        "mean_length": 15.436788558959961,
+        "gap_percent": 2.869079113006592,
+        "approx_ratio": 1.0286908149719238,
+        "improvement_over_nn_percent": 85.11403205001416,
+        "time_sec": 0.33373045921325684
+      },
+      "RL glimpse_rollout_mahalanobis (POMO-20)": {
+        "mean_length": 15.092692375183105,
+        "gap_percent": 0.5713738799095154,
+        "approx_ratio": 1.005713701248169,
+        "improvement_over_nn_percent": 96.96870632254114,
+        "time_sec": 0.659679651260376
+      },
+      "RL glimpse_rollout_mahalanobis (POMO+2opt)": {
+        "mean_length": 15.061277389526367,
+        "gap_percent": 0.36914965510368347,
+        "approx_ratio": 1.003691554069519,
+        "improvement_over_nn_percent": 98.05100377248394,
+        "time_sec": 2.215092182159424
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (greedy)": {
+        "mean_length": 15.389312744140625,
+        "gap_percent": 2.509909152984619,
+        "approx_ratio": 1.0250991582870483,
+        "improvement_over_nn_percent": 86.74965123744175,
+        "time_sec": 0.04118633270263672
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (best-of-128)": {
+        "mean_length": 15.158808708190918,
+        "gap_percent": 1.0036965608596802,
+        "approx_ratio": 1.0100369453430176,
+        "improvement_over_nn_percent": 94.69089090680893,
+        "time_sec": 4.735797643661499
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (beam-10)": {
+        "mean_length": 15.389312744140625,
+        "gap_percent": 2.509909152984619,
+        "approx_ratio": 1.0250991582870483,
+        "improvement_over_nn_percent": 86.74965123744175,
+        "time_sec": 0.14847970008850098
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (beam-25)": {
+        "mean_length": 15.389312744140625,
+        "gap_percent": 2.509909152984619,
+        "approx_ratio": 1.0250991582870483,
+        "improvement_over_nn_percent": 86.74965123744175,
+        "time_sec": 0.33634305000305176
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (8x aug)": {
+        "mean_length": 15.114582061767578,
+        "gap_percent": 0.7082598209381104,
+        "approx_ratio": 1.0070827007293701,
+        "improvement_over_nn_percent": 96.21457094812818,
+        "time_sec": 0.20769023895263672
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (POMO-20)": {
+        "mean_length": 15.084329605102539,
+        "gap_percent": 0.5171934962272644,
+        "approx_ratio": 1.0051718950271606,
+        "improvement_over_nn_percent": 97.25681737984202,
+        "time_sec": 0.6611385345458984
+      },
+      "RL glimpse_rollout_mahalanobis_whiten (POMO+2opt)": {
+        "mean_length": 15.05961799621582,
+        "gap_percent": 0.35443389415740967,
+        "approx_ratio": 1.0035443305969238,
+        "improvement_over_nn_percent": 98.10817257619058,
+        "time_sec": 2.156550884246826
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (greedy)": {
+        "mean_length": 15.398667335510254,
+        "gap_percent": 2.595414638519287,
+        "approx_ratio": 1.0259541273117065,
+        "improvement_over_nn_percent": 86.42737032045414,
+        "time_sec": 0.032004594802856445
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (best-of-128)": {
+        "mean_length": 15.149842262268066,
+        "gap_percent": 0.9499148726463318,
+        "approx_ratio": 1.009499192237854,
+        "improvement_over_nn_percent": 94.99979958063068,
+        "time_sec": 4.810770034790039
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (beam-10)": {
+        "mean_length": 15.398667335510254,
+        "gap_percent": 2.595414638519287,
+        "approx_ratio": 1.0259541273117065,
+        "improvement_over_nn_percent": 86.42737032045414,
+        "time_sec": 0.14992308616638184
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (beam-25)": {
+        "mean_length": 15.398667335510254,
+        "gap_percent": 2.595414638519287,
+        "approx_ratio": 1.0259541273117065,
+        "improvement_over_nn_percent": 86.42737032045414,
+        "time_sec": 0.33948254585266113
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (8x aug)": {
+        "mean_length": 15.110333442687988,
+        "gap_percent": 0.681807816028595,
+        "approx_ratio": 1.0068180561065674,
+        "improvement_over_nn_percent": 96.36094279899777,
+        "time_sec": 0.21393537521362305
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (POMO-20)": {
+        "mean_length": 15.07560920715332,
+        "gap_percent": 0.45736780762672424,
+        "approx_ratio": 1.0045737028121948,
+        "improvement_over_nn_percent": 97.55724930001071,
+        "time_sec": 0.6806700229644775
+      },
+      "RL glimpse_rollout_mahalanobis_whiten_pomo_spatial (POMO+2opt)": {
+        "mean_length": 15.052396774291992,
+        "gap_percent": 0.3053847551345825,
+        "approx_ratio": 1.0030537843704224,
+        "improvement_over_nn_percent": 98.35695543921742,
+        "time_sec": 2.2045440673828125
+      },
+      "NN": {
+        "mean_length": 17.907325744628906,
+        "gap_percent": 19.373746871948242,
+        "approx_ratio": 1.1937373876571655,
+        "improvement_over_nn_percent": 0.0,
+        "time_sec": 0.09267997741699219
+      },
+      "2-opt": {
+        "mean_length": 15.502091407775879,
+        "gap_percent": 3.3088910579681396,
+        "approx_ratio": 1.0330890417099,
+        "improvement_over_nn_percent": 82.86424249035194,
+        "time_sec": 3.6068482398986816
+      },
+      "OR-Tools": {
+        "mean_length": 15.004705429077148,
+        "gap_percent": 0.0,
+        "approx_ratio": 1.0,
+        "improvement_over_nn_percent": 100.0,
+        "time_sec": 2000.9475185871124
+      }
+    }
+  },
+  "weighted_euclidean": {
+    "summary": {
+      "RL glimpse_rollout_weighted_euclidean (greedy)": {
+        "mean_length": 5.6233344078063965,
+        "gap_percent": 1.410712718963623,
+        "approx_ratio": 1.01410710811615,
+        "improvement_over_nn_percent": 92.18815727260355,
+        "time_sec": 0.053823232650756836
+      },
+      "RL glimpse_rollout_weighted_euclidean (best-of-128)": {
+        "mean_length": 5.576352119445801,
+        "gap_percent": 0.5689528584480286,
+        "approx_ratio": 1.0056896209716797,
+        "improvement_over_nn_percent": 96.86083640524912,
+        "time_sec": 4.523971319198608
+      },
+      "RL glimpse_rollout_weighted_euclidean (beam-10)": {
+        "mean_length": 5.6233344078063965,
+        "gap_percent": 1.410712718963623,
+        "approx_ratio": 1.01410710811615,
+        "improvement_over_nn_percent": 92.18815727260355,
+        "time_sec": 0.1474323272705078
+      },
+      "RL glimpse_rollout_weighted_euclidean (beam-25)": {
+        "mean_length": 5.6233344078063965,
+        "gap_percent": 1.410712718963623,
+        "approx_ratio": 1.01410710811615,
+        "improvement_over_nn_percent": 92.18815727260355,
+        "time_sec": 0.3322482109069824
+      },
+      "RL glimpse_rollout_weighted_euclidean (8x aug)": {
+        "mean_length": 5.461204528808594,
+        "gap_percent": -1.4664275646209717,
+        "approx_ratio": 0.9853357076644897,
+        "improvement_over_nn_percent": 108.31297640778159,
+        "time_sec": 0.20561599731445312
+      },
+      "RL glimpse_rollout_weighted_euclidean (POMO-20)": {
+        "mean_length": 5.564584255218506,
+        "gap_percent": 0.3553769588470459,
+        "approx_ratio": 1.003553867340088,
+        "improvement_over_nn_percent": 98.0312232793122,
+        "time_sec": 0.656874418258667
+      },
+      "RL glimpse_rollout_weighted_euclidean (POMO+2opt)": {
+        "mean_length": 5.558863639831543,
+        "gap_percent": 0.2525522708892822,
+        "approx_ratio": 1.0025255680084229,
+        "improvement_over_nn_percent": 98.60017385786621,
+        "time_sec": 2.2604000568389893
+      },
+      "NN": {
+        "mean_length": 6.550256729125977,
+        "gap_percent": 18.1037540435791,
+        "approx_ratio": 1.181037425994873,
+        "improvement_over_nn_percent": 0.0,
+        "time_sec": 0.08754467964172363
+      },
+      "2-opt": {
+        "mean_length": 5.6716532707214355,
+        "gap_percent": 2.2764272689819336,
+        "approx_ratio": 1.0227642059326172,
+        "improvement_over_nn_percent": 87.38254753466606,
+        "time_sec": 3.881314754486084
+      },
+      "OR-Tools": {
+        "mean_length": 5.544788837432861,
+        "gap_percent": 0.0,
+        "approx_ratio": 1.0,
+        "improvement_over_nn_percent": 100.0,
+        "time_sec": 2000.95197224617
+      }
+    }
+  }
+}
