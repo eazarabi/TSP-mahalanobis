@@ -1,0 +1,34 @@
+# Bibliography (manually managed, not pushed)
+custom.bib
+
+# Paper deliverables (kept local)
+TSP-paper_Elnur-Adl-Zarabi.pdf
+TSP.zip
+PRESENTATION.pptx
+
+# Experimental code (separate research direction, not part of main paper)
+experimental/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Model artifacts (large, regeneratable)
+checkpoints/*.pt
+data/*.pt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
